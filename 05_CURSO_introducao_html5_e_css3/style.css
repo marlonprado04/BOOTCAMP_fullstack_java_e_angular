@@ -1,3 +1,7 @@
+body{
+    background-color: gray;
+}
+
 #title, .subtitle, .post_title{
     color: purple;
 }
@@ -5,4 +9,11 @@
 .post_title{
     font-size: 16px;
     font-style: italic;
+}
+
+.post{
+    background-color: white;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 10px;
 }
