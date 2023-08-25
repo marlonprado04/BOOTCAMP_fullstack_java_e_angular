@@ -1,9 +1,15 @@
 body{
     background-color: #f7f7f7;
+    font-family: Verdana;
 }
 
 #title, .subtitle, .post_title{
     color: purple;
+}
+
+#title{
+    font-size: 44px;
+    text-transform: uppercase;
 }
 
 .post_title{
@@ -11,6 +17,11 @@ body{
     font-style: italic;
     margin:0;
     margin-bottom: 15px;
+}
+
+a{
+    text-decoration: line-through;
+    color: #505050;
 }
 
 .post{
@@ -26,6 +37,7 @@ body{
 .post_content{
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .post_image{
