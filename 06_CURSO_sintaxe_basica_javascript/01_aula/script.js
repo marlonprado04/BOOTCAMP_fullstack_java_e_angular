@@ -1,1 +1,0 @@
-alert("E aí rapá")
