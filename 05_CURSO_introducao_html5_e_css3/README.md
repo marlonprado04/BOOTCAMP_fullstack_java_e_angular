@@ -1,11 +1,8 @@
 # Introdução a Criação de Websistes com HTML5 e CSS3
 
-Links: GitHub: <https://github.com/marlonprado04/BOOTCAMP_fullstack_java_e_angular/tree/main/05_CURSO_introducao_html5_e_css3>
-Categoria: Curso
-Status: In Progress
-Conteúdos DB: HTML5 (<https://www.notion.so/HTML5-f1374b076a5b42c49e8b8126b7460f62?pvs=21>), CSS3 (<https://www.notion.so/CSS3-4736d3ae6e9a426aaeba0498aea25ce2?pvs=21>)
+Minha trilha de aprendizagem está sendo elaborada no Notion em pode ser acessada através dos links abaixo.
+
 Plano de estudos DB: Santander Bootcamp 2023 - Fullstack Java+Angular (<https://www.notion.so/Santander-Bootcamp-2023-Fullstack-Java-Angular-c34a45b6c201403db3aeac2a04333dce?pvs=21>)
-Data: 18/08/2023
 Institução ou plataforma: <https://www.notion.so/8dbfd5bea50f4b5394216ad351035a1d>
 
 ## Índice
