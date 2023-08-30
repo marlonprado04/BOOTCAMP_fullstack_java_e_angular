@@ -1,14 +1,5 @@
 # Sintaxe Básica em JavaScript
 
-Resumo: Curso introdutório de JavaScript
-Links: GitHub: <https://github.com/marlonprado04/BOOTCAMP_fullstack_java_e_angular/tree/main/06_CURSO_sintaxe_basica_javascript>
-Categoria: Curso
-Status: In Progress
-Conteúdos DB: JavaScript (<https://www.notion.so/JavaScript-f37e965c3648460f9e47b59bd9b762c3?pvs=21>)
-Plano de estudos DB: Santander Bootcamp 2023 - Fullstack Java+Angular (<https://www.notion.so/Santander-Bootcamp-2023-Fullstack-Java-Angular-c34a45b6c201403db3aeac2a04333dce?pvs=21>)
-Data: 25/08/2023
-Instituição ou plataforma: <https://www.notion.so/8dbfd5bea50f4b5394216ad351035a1d>
-
 ## Índice
 
 - [Sintaxe Básica em JavaScript](#sintaxe-básica-em-javascript)
