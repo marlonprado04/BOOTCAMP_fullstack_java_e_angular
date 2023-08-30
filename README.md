@@ -18,7 +18,7 @@ Aqui está a lista dos conteúdos compartilhados entre os dois bootcamps, juntam
 
 Título | Tipo | Repositório
 -------| ---- | -----------
-01. Organizando seus Estudos Com os Roadmaps DIO e o Notion | Curso | [link](https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws) |
-02. Versionamento de Código com o Git e GitHub | Curso | [link](https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws)|
-03. Desafios de Projetos: Crie um portfólio vencedor | Curso | [link](https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws)|
-04. Contribuindo em um Projeto Open Source no GitHub | Desafio de Projeto | [link](https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws)|
+01. Organizando seus Estudos Com os Roadmaps DIO e o Notion | Curso | [link](https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws)
+02. Versionamento de Código com o Git e GitHub | Curso | [link](https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws)
+03. Desafios de Projetos: Crie um portfólio vencedor | Curso | [link](https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws)
+04. Contribuindo em um Projeto Open Source no GitHub | Desafio de Projeto | [link](https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws)
