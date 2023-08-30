@@ -3,6 +3,7 @@
 Minha trilha de aprendizagem está sendo elaborada no Notion em pode ser acessada através dos links abaixo.
 
 Plano de estudos DB: Santander Bootcamp 2023 - Fullstack Java+Angular (<https://www.notion.so/Santander-Bootcamp-2023-Fullstack-Java-Angular-c34a45b6c201403db3aeac2a04333dce?pvs=21>)
+
 Institução ou plataforma: <https://www.notion.so/8dbfd5bea50f4b5394216ad351035a1d>
 
 ## Índice
