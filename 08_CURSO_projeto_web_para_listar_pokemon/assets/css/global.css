@@ -4,7 +4,7 @@
     /* Considera a borda como tamanho total */
 }
 
-body{
+body {
     background-color: #f6f8fc;
 }
 
@@ -15,102 +15,17 @@ body{
     background-color: #fff;
 }
 
-@media screen and (min-width: 992px) {
-
-    .content{
-        max-width: 992px;
-        height: auto ;
-        margin: 1rem auto;
-        border-radius: 1rem;
-    }
-}
 
 h1 {
     margin: 0;
 }
 
-/* Feito com 1 coluna, por padrão*/
-.pokemons {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr; /* Uma coluna, para telas pequenas (até 380px)*/
-}
-
-/* Feito com 2 colunas, quando a tela chegar a 380px */
-@media screen and (min-width: 380px) {
-
-    .pokemons{
-        grid-template-columns: 1fr 1fr; /* Modificando apenas o número de colunas, o resto fica igual (herda do pai) */
-    }
-}
-
-/* Feito com 3 colunas, quando a tela chegar a 576px */
-@media screen and (min-width: 576px) {
-
-    .pokemons{
-        grid-template-columns: 1fr 1fr 1fr; /* Modificando apenas o número de colunas, o resto fica igual (herda do pai) */
-    }
-}
-
-/* Feito com 4 colunas, quando a tela chegar a 992px */
 @media screen and (min-width: 992px) {
 
-    .pokemons{
-        grid-template-columns: 1fr 1fr 1fr 1fr; /* Modificando apenas o número de colunas, o resto fica igual (herda do pai) */
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
     }
-}
-
-.pokemon {
-    margin: 0.5rem;
-    padding: 2rem 1rem;
-    background-color: #49d0b0;
-    color: #fff;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.pokemon .name {
-    color: #fff;
-    margin: .25rem 0rem;
-}
-
-.pokemon .number {
-    color: #000;
-    opacity: 0.3;
-    text-align: right;
-    font-size: .625rem;
-}
-
-.pokemon .detail .types {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.pokemon .detail .types .type {
-    background-color: #61e1ca;
-    color: #fff;
-    padding: .25rem .5rem;
-    border-radius: 1rem;
-    font-size: .625rem;
-    margin: .25rem 0;
-
-}
-
-.pokemon .detail {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.pokemon .detail img {
-    border-style: none;
-    max-width: 100%;
-    height: 70px;
-    align-self: flex-end;
 }
