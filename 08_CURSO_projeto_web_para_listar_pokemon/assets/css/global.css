@@ -33,4 +33,5 @@ ol.pokemons li img{
     border-style: none;
     max-width: 100%;
     max-width: 60%;
+    align-self: flex-end;
 }
