@@ -1,12 +1,9 @@
-const offset = 0;
-const limit = 10;
-const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`;
 const pokemonList = document.getElementById("pokemonList");
 console.log(pokemonList);
 
 // Função para converter resultado de API para lista do HTML
-function convertPokemonToLi (pokemon){
-    return `<li class="pokemon">
+function convertPokemonToLi(pokemon) {
+  return `<li class="pokemon">
                 <span class="number">#001</span>
                 <span class="name">${pokemon}</span>
 
@@ -20,22 +17,25 @@ function convertPokemonToLi (pokemon){
                         alt="${pokemon}">
                 </div>
 
-            </li>`
+            </li>`;
 }
 
-// Primeiro fetch, que retorna uma promise
-fetch(url)
-  // Pega o resultado da promise e converte em json
-  .then((response) => response.json())
-  // Pega o json e extrai apenas o requests (lista de pokemons)
-  .then((jsonBody) => jsonBody.results)
-  //Pega a lista de pokemon e retorna no console
+// Chamando requisição de API e listando pokemon no browse
+pokeApi
+  .getPokemons()
   .then((pokemons) => {
-    // Pega cada pokemon e chama a função para converter em lista 
+    // Cria lista para armazenar pokemons
+    const listItems = [];
+
+    // Pega cada pokemon e chama a função para converter em lista
     for (let i = 0; i < pokemons.length; i++) {
-        const pokemon = pokemons[i];
-        pokemonList.innerHTML += convertPokemonToLi(pokemon.name);
+      const pokemon = pokemons[i];
+      // Adiciona pokemon formatado em HTML na lista
+      listItems.push(convertPokemonToLi(pokemon.name));
     }
+
+    // Printa no console lista de pokemons
+    console.log(listItems);
   })
   // Retorna erro caso promise dê errado
   .catch((erro) => console.log(erro));
