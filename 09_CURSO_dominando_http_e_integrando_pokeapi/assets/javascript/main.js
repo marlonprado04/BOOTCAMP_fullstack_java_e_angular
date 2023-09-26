@@ -26,7 +26,8 @@ pokeApi
     // Primeiro mapeia todos os pokemons e os converte em li de HTML via MAP e convertPokemonToLi
     // Depois unifica tudo em uma string sem separador via JOIN
     // Depois incrementa lista convertida em string no html via innerHTML
-    pokemonList.innerHTML = pokemons.map(convertPokemonToLi).join("");
+    const newHtml = pokemons.map(convertPokemonToLi).join("");
+    pokemonList.innerHTML = newHtml; 
   })
   // Retorna erro caso promise dê errado
   .catch((erro) => console.log(erro));
