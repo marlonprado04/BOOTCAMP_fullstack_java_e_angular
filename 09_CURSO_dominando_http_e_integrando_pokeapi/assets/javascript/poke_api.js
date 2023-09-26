@@ -1,8 +1,13 @@
 // Declarando objeto para armazenar funções
 const pokeApi = {};
 
+// Atribuindo função para pegar os detalhes a partir da URL
+pokeApi.getPokemonDetails = (pokemon) => {
+  return fetch(pokemon.url).then((response) => response.json());
+};
+
 // Atribuindo função getPokemons ao objeto, com valores offset e limit em default
-pokeApi.getPokemons = (offset = 0, limit = 10) => {
+pokeApi.getPokemons = (offset = 0, limit = 5) => {
   // URL da requisição
   const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`;
 
@@ -13,16 +18,13 @@ pokeApi.getPokemons = (offset = 0, limit = 10) => {
       .then((response) => response.json())
       // Pega o json e extrai apenas o requests (lista de pokemons)
       .then((jsonBody) => jsonBody.results)
+      // Mapeia a lista de pokemons e pega as URL através do getPokemonDetails
+      .then((pokemons) => pokemons.map(pokeApi.getPokemonDetails))
+      // Transforma a de urls em promises
+      .then((detailRequests) => Promise.all(detailRequests))
+      // Retorna a lista de detalhes de pokemons
+      .then((pokemonsDetails) => pokemonsDetails)
       // Printando erro caso haja
       .catch((error) => console.log(error))
   );
 };
-
-Promise.all([
-  fetch('https://pokeapi.co/api/v2/pokemon/1'),
-  fetch('https://pokeapi.co/api/v2/pokemon/2'),
-  fetch('https://pokeapi.co/api/v2/pokemon/3'),
-  fetch('https://pokeapi.co/api/v2/pokemon/4'),
-]).then((results) => {
-  console.log(results);
-})

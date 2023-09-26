@@ -1,18 +1,23 @@
 const pokemonList = document.getElementById("pokemonList");
 
+// Função para converter tipos em lista
+function convertPokemonsTypesToLi(pokemonTypes) {
+  return pokemonTypes.map((typeSlot) => `<li class="type">${typeSlot.type.name}</li>`);
+}
+
+
 // Função para converter resultado de API para lista do HTML
 function convertPokemonToLi(pokemon) {
   return `<li class="pokemon">
-                <span class="number">#001</span>
+                <span class="number">#${pokemon.order}</span>
                 <span class="name">${pokemon.name}</span>
 
                 <div class="detail">
                     <ol class="types">
-                        <li class="type">grass</li>
-                        <li class="type">poison</li>
+                        ${convertPokemonsTypesToLi(pokemon.types).join("")}
                     </ol>
 
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+                    <img src="${pokemon.sprites.other.dream_world.front_default}"
                         alt="${pokemon.name}">
                 </div>
 
@@ -27,7 +32,7 @@ pokeApi
     // Depois unifica tudo em uma string sem separador via JOIN
     // Depois incrementa lista convertida em string no html via innerHTML
     const newHtml = pokemons.map(convertPokemonToLi).join("");
-    pokemonList.innerHTML = newHtml; 
+    pokemonList.innerHTML = newHtml;
   })
   // Retorna erro caso promise dê errado
   .catch((erro) => console.log(erro));
