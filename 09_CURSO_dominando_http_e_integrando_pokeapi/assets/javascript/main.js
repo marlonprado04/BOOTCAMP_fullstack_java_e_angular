@@ -2,6 +2,7 @@ const pokemonList = document.getElementById("pokemonList");
 const loadMoreButton = document.getElementById("loadMoreButton");
 const limit = 5;
 let offset = 0;
+let maxRecord = 151;
 
 function loadMoreItems(offset, limit) {
   // Chamando requisição de API e listando pokemon no browse
@@ -39,9 +40,30 @@ function loadMoreItems(offset, limit) {
     .catch((erro) => console.log(erro));
 }
 
+// Carrega primeiros pokemons na tela
 loadMoreItems(offset, limit);
 
+// Ao clicar carrega mais pokemons de acordo com o limite estabelecido
 loadMoreButton.addEventListener("click", () => {
+  // Atribui ao numero de novos elementos o valor somado ao limite atual
   offset += limit;
-  loadMoreItems(offset, limit);
+
+  // Armazena o número de itens da próxima página
+  const qtdRecordsWithNextPage = offset + limit;
+
+  // Verifica se a próxima página passa do limite estabelecido
+  if (qtdRecordsWithNextPage >= maxRecord) {
+    // Se passar, cria novo limite com a diferença do limite estabelecido e
+    // o número de elementos atual
+    const newLimit = maxRecord - offset;
+
+    // Carrega mais itens de acordo com o novo limite
+    loadMoreItems(offset, newLimit);
+
+    // Remove botão da tela
+    loadMoreButton.parentElement.removeChild(loadMoreButton);
+  } else {
+    // Se não passar, carrega mais itens de acordo com os valores calculados
+    loadMoreItems(offset, limit);
+  }
 });
