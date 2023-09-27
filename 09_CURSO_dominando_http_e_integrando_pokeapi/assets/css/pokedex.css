@@ -54,7 +54,6 @@
     background-color:#D685AD;
 }
 
-
 /* Feito com 1 coluna, por padrão*/
 .pokemons {
     list-style: none;
@@ -119,6 +118,24 @@
     align-self: flex-end;
 }
 
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button{
+    color: #fff;
+    font-size: .625rem;
+    margin: .25rem 0;
+    padding: .25rem .5rem;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;  
+}
 
 /* Feito com 2 colunas, quando a tela chegar a 380px */
 @media screen and (min-width: 380px) {
