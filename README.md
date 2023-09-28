@@ -18,13 +18,13 @@ Além disso, os Bootcamps da DIO são compostos por desafios de código e projet
 
 Abaixo está a estrutura de diretórios deste repositório, bem como uma breve descrição no caso do diretório ser simbólico ou real:
 
-Simbólico: [01_CURSO_organizando_estudos_com_notion](./01_CURSO_organizando_estudos_com_notion/)
-Simbólico: [02_CURSO_versionamento_com_git_e_github](./02_CURSO_versionamento_com_git_e_github/)
-Simbólico: [03_CURSO_desafios_de_projeto](./03_CURSO_desafios_de_projeto/)
-Simbólico: [04_DESAFIO_contribuindo_open_source](./04_DESAFIO_contribuindo_open_source/)
-Real: [05_CURSO_introducao_html5_e_css3](./05_CURSO_introducao_html5_e_css3/)
-Real: [06_CURSO_sintaxe_basica_javascript](./06_CURSO_sintaxe_basica_javascript/)
-Real: [07_CURSO_introducao_ao_desenvolvimento_web_com_javascript](./07_CURSO_introducao_ao_desenvolvimento_web_com_javascript/)
-Real: [08_CURSO_projeto_web_para_listar_pokemon](./08_CURSO_projeto_web_para_listar_pokemon/)
-Real: [09_CURSO_dominando_http_e_integrando_pokeapi](./09_CURSO_dominando_http_e_integrando_pokeapi/)
-Simbólico: [10_DESAFIO_js-developer-pokedex](./10_DESAFIO_js-developer-pokedex/)
+1. Simbólico: [01_CURSO_organizando_estudos_com_notion](./01_CURSO_organizando_estudos_com_notion/)
+2. Simbólico: [02_CURSO_versionamento_com_git_e_github](./02_CURSO_versionamento_com_git_e_github/)
+3. Simbólico: [03_CURSO_desafios_de_projeto](./03_CURSO_desafios_de_projeto/)
+4. Simbólico: [04_DESAFIO_contribuindo_open_source](./04_DESAFIO_contribuindo_open_source/)
+5. Real: [05_CURSO_introducao_html5_e_css3](./05_CURSO_introducao_html5_e_css3/)
+6. Real: [06_CURSO_sintaxe_basica_javascript](./06_CURSO_sintaxe_basica_javascript/)
+7. Real: [07_CURSO_introducao_ao_desenvolvimento_web_com_javascript](./07_CURSO_introducao_ao_desenvolvimento_web_com_javascript/)
+8. Real: [08_CURSO_projeto_web_para_listar_pokemon](./08_CURSO_projeto_web_para_listar_pokemon/)
+9. Real: [09_CURSO_dominando_http_e_integrando_pokeapi](./09_CURSO_dominando_http_e_integrando_pokeapi/)
+10. Simbólico: [10_DESAFIO_js-developer-pokedex](./10_DESAFIO_js-developer-pokedex/)
