@@ -10,9 +10,9 @@ Estou documentando todo aprendizado em meu **Notion**, caso tenha curiosidade, v
 
 Este repositório contém as anotações dos cursos, artigos e desafios realizados referentes ao Bootcamp.
 
-Alguns dos cursos podem foram consumidos em outro BOOTCAMP da DIO, por conta disso, algumas pastas neste repositório são simbólicas e contém apenas informações como a URL do repositório onde as anotações se encontram.
+Alguns dos cursos podem foram consumidos **em outro BOOTCAMP da DIO**, por conta disso, **algumas pastas neste repositório são simbólicas e contém apenas informações como a URL do repositório onde as anotações se encontram**.
 
-Além disso, os Bootcamps da DIO são compostos por desafios de código e projeto, onde pode ser necessário criar ou clonar um repositório individual. Dessa forma, para manter este repositório organizado, vou adicionar também uma pasta simbólica contendo a URL de referência para cada desafio de projeto ou código que esteja em um repositório diferente.
+Além disso, os Bootcamps da DIO são compostos por **desafios de código e projeto**, onde pode ser necessário criar ou clonar um repositório individual. Dessa forma, para manter este repositório organizado, **vou adicionar também uma pasta simbólica** contendo a URL de referência para cada desafio de projeto ou código que esteja em um repositório diferente.
 
 ## Estrutura de diretórios
 
