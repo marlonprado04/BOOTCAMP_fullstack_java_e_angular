@@ -12,13 +12,19 @@ Este repositório contém as anotações dos cursos, artigos e desafios realizad
 
 O repositório anterior pode ser acessado [neste link](https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws).
 
-## Conteúdos compartilhados entre os bootcamps
+Além disso, os Bootcamps da DIO são compostos por desafios de código e projeto, onde pode ser necessário criar ou clonar um repositório individual. Dessa forma, para manter este repositório organizado, vou adicionar o link de referência para cada desafio de projeto ou código que esteja em um repositório diferente.
 
-Aqui está a lista dos conteúdos compartilhados entre os dois bootcamps, juntamente com os links diretos para cada recurso:
+## Relação de links
 
-Título | Tipo | Repositório
--------| ---- | -----------
-01. Organizando seus Estudos Com os Roadmaps DIO e o Notion | Curso | <https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws> |
-02. Versionamento de Código com o Git e GitHub | Curso | <https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws> |
-03. Desafios de Projetos: Crie um portfólio vencedor | Curso | <https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws> |
-04. Contribuindo em um Projeto Open Source no GitHub | Desafio de Projeto | <https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws> |
+Aqui está a relação de links referentes aos cursos compartilhados entre bootcamps ou mesmo repositórios de desafio e projetos:
+
+1. CURSO (compartilhado): [Organizando seus Estudos Com os Roadmaps DIO e o Notion](https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws)
+2. CURSO (compartilhado): [Versionamento de Código com o Git e GitHub](https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws)
+3. CURSO (compartilhado): [Desafios de Projetos: Crie um portfólio vencedor](https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws)
+4. DESAFIO (compartilhado): [Contribuindo em um Projeto Open Source no GitHub | Desafio de Projeto](https://github.com/marlonprado04/BOOTCAMP_desenvolvimento_java_com_cloud_aws)
+5. CURSO (pasta local): [05_CURSO_introducao_html5_e_css3](./05_CURSO_introducao_html5_e_css3/)
+6. CURSO (pasta local): [06_CURSO_sintaxe_basica_javascript](./06_CURSO_sintaxe_basica_javascript/)
+7. CURSO (pasta local): [07_CURSO_introducao_ao_desenvolvimento_web_com_javascript](./07_CURSO_introducao_ao_desenvolvimento_web_com_javascript/)
+8. CURSO (pasta local): [08_CURSO_projeto_web_para_listar_pokemon](./08_CURSO_projeto_web_para_listar_pokemon/)
+9. CURSO (pasta local): [09_CURSO_dominando_http_e_integrando_pokeapi](./09_CURSO_dominando_http_e_integrando_pokeapi/)
+10. DESAFIO (repositório próprio): [DESAFIO_DIO_js-developer-pokedex](https://github.com/marlonprado04/DESAFIO_DIO_js-developer-pokedex/)
