@@ -69,7 +69,7 @@ Exemplo: site medium possui um template padrão para cada tópico e notícia com
 
 Para início do código criamos o esqueleto com todas as estruturas, para parecer com as tag de informações do Medium:
 
-![Untitled](Trabalhando%20com%20Web%20Components%20no%20Front-end%20a505154be5c44b91aa3ed05e7bec7ab8/Untitled.png)
+![Untitled](./assets/for_readme/Untitled.png)
 
 O código personalizado até o momento:
 
