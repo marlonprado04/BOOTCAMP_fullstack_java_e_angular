@@ -29,12 +29,14 @@ class CardNews extends HTMLElement {
 
     const linkTitle = document.createElement("a");
     linkTitle.textContent = this.getAttribute("title");
+    // Adiciona propriedade de href dinâmica
+    linkTitle.href = this.getAttribute("link-url");
 
     const newsContent = document.createElement("p");
     newsContent.textContent = this.getAttribute("content")
 
     const newsImage = document.createElement("img");
-
+    newsImage.src = this.getAttribute("photo");
 
     // Adiciona filhos à estrutura 
     componentRoot.appendChild(cardLeft);
