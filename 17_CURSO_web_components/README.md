@@ -277,7 +277,7 @@ Mas além de **elementos**, podemos adicionar à um componente um **CSS específ
 
 A estrutura dos Components é similar ao desenho abaixo:
 
-![Untitled](Trabalhando%20com%20Web%20Components%20no%20Front-end%20a505154be5c44b91aa3ed05e7bec7ab8/Untitled%202.png)
+![Untitled](./assets/for_readme/Untitled%202.png)
 
 No exemplo, podemos chamar o component através do seu seletor `<card-comp>`
 
@@ -335,7 +335,7 @@ Exemplo:
 
 Resultado:
 
-![Untitled](Trabalhando%20com%20Web%20Components%20no%20Front-end%20a505154be5c44b91aa3ed05e7bec7ab8/Untitled%203.png)
+![Untitled](./assets/for_readme/Untitled%203.png)
 
 ## Construindo um Component de maneira profissional
 
