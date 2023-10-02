@@ -89,3 +89,11 @@ let dados2: Array<string> = ["Marlon", "Ana", "Loren"]
 let infos:(string | number)[] = ["Marlon", 21, "Ana", 10]
 let infos2: Array<(string | number)> = ["Marlon", 21, "Ana", 10]
 
+//---------------------------------------------------------
+
+// Tuplas
+// Em tuplas nós abrimos o colchetes diretao, sem passar o tipo antes
+
+let boleto:[string, number, number] = ["conta de agua", 120.00, 13145125125454]
+
+// Se tentar inverter a ordem estipulada o TS aponta erro
