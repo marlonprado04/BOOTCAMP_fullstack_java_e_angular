@@ -83,3 +83,9 @@ let dados2: Array<string> = ["Marlon", "Ana", "Loren"]
 
 // A primeira forma parece mais legível, talvez seja a melhor para uso
 
+// Array de multi tipos
+// Podemos criar um array qye aceita vários tipos da seguinte forma
+
+let infos:(string | number)[] = ["Marlon", 21, "Ana", 10]
+let infos2: Array<(string | number)> = ["Marlon", 21, "Ana", 10]
+

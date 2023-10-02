@@ -44,3 +44,13 @@ let produtoNovo = {
     preco: 100,
     unidades: 10
 };
+//---------------------------------------------------------
+// Tipo array
+// Existem duas formas de criar arrays, mas que na prática são a mesma coisa
+let dados = ["Marlon", "Ana", "Loren"];
+let dados2 = ["Marlon", "Ana", "Loren"];
+// A primeira forma parece mais legível, talvez seja a melhor para uso
+// Array de multi tipos
+// Podemos criar um array qye aceita vários tipos da seguinte forma
+let infos = ["Marlon", 21, "Ana", 10];
+let infos2 = ["Marlon", 21, "Ana", 10];
