@@ -28,3 +28,19 @@ let vazio;
 let qualquer = 1;
 let qualquer2 = "1";
 let qualquer3 = true;
+//---------------------------------------------------------
+// Tipo objeto
+// Objeto sem previsibilidade (não recomendado para uso)
+// Criando uma variável do tipo objeto o TS não aponta
+// erros ao tentar passar qualquer valor, dessa forma
+// o objeto fica imprevisível sobre sua entrada
+let produto = {
+    name: "Felipe",
+    cidade: "SP",
+    idade: 30
+};
+let produtoNovo = {
+    nome: "Tênis",
+    preco: 100,
+    unidades: 10
+};

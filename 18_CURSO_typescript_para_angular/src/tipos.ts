@@ -43,3 +43,32 @@ let qualquer: any = 1;
 let qualquer2: any = "1";
 let qualquer3: any = true; 
 
+//---------------------------------------------------------
+// Tipo objeto
+
+// Objeto sem previsibilidade (não recomendado para uso)
+// Criando uma variável do tipo objeto o TS não aponta
+// erros ao tentar passar qualquer valor, dessa forma
+// o objeto fica imprevisível sobre sua entrada
+
+let produto: object ={ 
+    name: "Felipe",
+    cidade: "SP",
+    idade: 30
+}
+
+// Objeto com previsibilidade (recomendado)
+// Objetos assim tem seus atributos estipulados antes
+// assim o TS aponta erros se faltar alguma informação previamente solicitada
+
+type ProdutoLoja = {
+    nome: string;
+    preco: number;
+    unidades: number;
+};
+
+let produtoNovo: ProdutoLoja = {
+    nome:"Tênis",
+    preco:100,
+    unidades:10
+}
