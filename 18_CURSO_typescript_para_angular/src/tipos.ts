@@ -97,3 +97,10 @@ let infos2: Array<(string | number)> = ["Marlon", 21, "Ana", 10]
 let boleto:[string, number, number] = ["conta de agua", 120.00, 13145125125454]
 
 // Se tentar inverter a ordem estipulada o TS aponta erro
+
+//---------------------------------------------------------
+
+// O TS aproveita os métodos do JS para, por exemplo, os arrays
+
+dados.push("Olá");
+dados.map((dado) => console.log(dado));
