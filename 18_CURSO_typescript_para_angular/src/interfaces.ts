@@ -6,6 +6,14 @@ type robot = {
     id: number;
 }
 
+// Criando uma interface robot
+interface robot2 {
+    id: number;
+    name: string;
+    sayHello(): string;
+}
+
+
 // Criando um robo usando o type
 let robo: robot = {
     name: "Megamen",
@@ -23,14 +31,6 @@ let robo2: robot2 = {
         return `Hello ${this.name}`
     }
 }
-
-// Criando uma interface robot
-interface robot2 {
-    id: number;
-    name: string;
-    sayHello(): string;
-}
-
 
 // Criando classe pessoa a partir da interface robot2
 class Pessoa implements robot2 {
