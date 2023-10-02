@@ -63,3 +63,8 @@ let boleto = ["conta de agua", 120.00, 13145125125454];
 // O TS aproveita os métodos do JS para, por exemplo, os arrays
 dados.push("Olá");
 dados.map((dado) => console.log(dado));
+//---------------------------------------------------------
+// Dates
+// Dates são do interfaces do tipo data e seguem o formato americano na sua criação
+let aniversario = new Date("2000-01-10 03:40");
+console.log(aniversario.toString());

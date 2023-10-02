@@ -105,3 +105,12 @@ let boleto:[string, number, number] = ["conta de agua", 120.00, 13145125125454]
 dados.push("Olá");
 dados.map((dado) => console.log(dado));
 
+//---------------------------------------------------------
+
+// Dates
+
+// Dates são do interfaces do tipo data e seguem o formato americano na sua criação
+
+let aniversario:Date = new Date("2000-01-10 03:40")
+
+console.log(aniversario.toString())
