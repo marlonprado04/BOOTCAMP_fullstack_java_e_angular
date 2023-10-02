@@ -21,3 +21,13 @@ function CallToPhone(phone: number | string): number | string {
 }
 
 console.log(CallToPhone("11121"), CallToPhone(131313));
+
+// ----------------------------
+
+// async
+
+// Funções async retornam promises, precisamos tipar o retorno da função de acordo
+
+async function getDatabase(id: number): Promise<string>{
+    return "Marlon";
+}
