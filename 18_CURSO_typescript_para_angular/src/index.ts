@@ -7,12 +7,25 @@ function apiVersion (version: string){
     }
 }
 
+function minLength(length:number){
+    return (target:any, key:string) => {
+        console.log(target[key]);
+    }
+}
+
 // Chamando decorator acima da classe Api
 @apiVersion("1.10")
-class Api{}
+class Api{
+    @minLength(3)
+    name:string;
+
+    constructor(name:string){
+        this.name = name;
+    }
+}
 
 // Criando nova API
-const api = new Api();
+const api = new Api("Produtos");
 
 // Imprimindo propriedade injetada via decorator
-console.log(api.__version);
+console.log(api.name);
