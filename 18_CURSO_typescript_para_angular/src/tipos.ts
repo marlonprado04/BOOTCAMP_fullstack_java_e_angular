@@ -72,3 +72,14 @@ let produtoNovo: ProdutoLoja = {
     preco:100,
     unidades:10
 }
+
+//---------------------------------------------------------
+// Tipo array
+
+// Existem duas formas de criar arrays, mas que na prática são a mesma coisa
+
+let dados: string[] = ["Marlon", "Ana", "Loren"]
+let dados2: Array<string> = ["Marlon", "Ana", "Loren"]
+
+// A primeira forma parece mais legível, talvez seja a melhor para uso
+
