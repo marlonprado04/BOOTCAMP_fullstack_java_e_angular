@@ -36,3 +36,4 @@ Abaixo está a estrutura de diretórios deste repositório, bem como uma breve d
 16. Real: [16_DESAFIO_grande_deposito](./16_DESAFIO_grande_deposito/)
 17. Real: [17_CURSO_web_components](./17_CURSO_web_components/)
 18. Real: [18_CURSO_typescript_para_angular](./18_CURSO_typescript_para_angular/)
+19. Real: [19_CURSO_introducao_ao_ambiente_angular](./19_CURSO_introducao_ao_ambiente_angular/)
