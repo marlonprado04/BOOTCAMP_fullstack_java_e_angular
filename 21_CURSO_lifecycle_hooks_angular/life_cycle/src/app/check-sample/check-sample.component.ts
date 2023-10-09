@@ -5,7 +5,8 @@ import {
 	AfterContentChecked,
 	AfterContentInit,
 	AfterViewChecked,
-	AfterViewInit
+	AfterViewInit,
+	OnDestroy
 } from '@angular/core';
 
 @Component({
@@ -17,11 +18,11 @@ export class CheckSampleComponent implements OnInit, DoCheck,
 	AfterContentChecked,
 	AfterContentInit,
 	AfterViewChecked,
-	AfterViewInit {
+	AfterViewInit, OnDestroy {
 
 	quantidade: number = 0;
 
-	constructor() { }
+	constructor() {}
 
 	adicionar() {
 		this.quantidade += 1;
@@ -63,6 +64,10 @@ export class CheckSampleComponent implements OnInit, DoCheck,
 	ngOnInit(): void {
 		console.log(`ngOnInit`)
 
+	}
+
+	ngOnDestroy(): void {
+		console.log("ngOnDestroy")
 	}
 
 }
