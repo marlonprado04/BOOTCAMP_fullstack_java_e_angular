@@ -6,4 +6,29 @@
     {{i}} - {{p}}</li>
   <button (click)="adicionar()">Adicionar</button>
 </ul>
+
+<div [ngSwitch]="menuType">
+  <div *ngSwitchCase="'user'">
+    <ul>
+      <li>Editar perfil</li>
+      <li>Adicionar cartão</li>
+    </ul>
+
+  </div>
+  <div *ngSwitchCase="'admin'">
+    <ul>
+      <li>Editar perfil</li>
+      <li>Adicionar cartão</li>
+      <li>Gerenciar usuários</li>
+    </ul>
+  </div>
+  <div *ngSwitchCase="'superuser'">
+    <ul>
+      <li>Editar perfil</li>
+      <li>Adicionar cartão</li>
+      <li>Gerenciar usuários</li>
+      <li>Gerenciar admins</li>
+    </ul>
+  </div>
+</div>
 <button>Olá</button>

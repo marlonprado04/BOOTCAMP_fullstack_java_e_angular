@@ -9,6 +9,8 @@ export class CardComponent implements OnInit {
 
   produtos: string[] = [];
 
+  menuType:string = "admin";
+
   constructor() {
     this.produtos = ["banana",
       "maça",
