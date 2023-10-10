@@ -2,7 +2,8 @@
 <p *ngIf="false">card works!</p>
 
 <ul>
-  <li *ngFor="let p of produtos">{{p}}</li>
+  <li *ngFor="let p of produtos; let i = index" (click)="remover(i)">
+    {{i}} - {{p}}</li>
   <button (click)="adicionar()">Adicionar</button>
 </ul>
 <button>Olá</button>

@@ -22,4 +22,7 @@ export class CardComponent implements OnInit {
     this.produtos.push("Tequila")
   }
 
+  remover(index:number) {
+    this.produtos.splice(index, 1)
+  }
 }
