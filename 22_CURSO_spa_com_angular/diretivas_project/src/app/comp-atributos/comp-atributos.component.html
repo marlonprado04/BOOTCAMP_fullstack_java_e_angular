@@ -3,3 +3,6 @@
 <button (click)="trocar()">Mudar cor</button>
 
 <h1 [ngStyle]="{'background':corFundo, 'color':corFonte}">Curso Angular</h1>
+
+<input type="text" [(ngModel)]="item">
+<p>{{ item }}</p>

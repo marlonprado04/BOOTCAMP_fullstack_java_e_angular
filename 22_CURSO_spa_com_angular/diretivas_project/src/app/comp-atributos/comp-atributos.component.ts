@@ -12,6 +12,8 @@ export class CompAtributosComponent implements OnInit {
   corFundo:string= "red";
   corFonte:string= "white"
 
+  item:string="";
+
   constructor() { }
 
   ngOnInit(): void {
