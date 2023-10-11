@@ -14,6 +14,8 @@ export class CompAtributosComponent implements OnInit {
 
   item:string="";
 
+  isEnable:boolean = true;
+
   constructor() { }
 
   ngOnInit(): void {

@@ -4,5 +4,10 @@
 
 <h1 [ngStyle]="{'background':corFundo, 'color':corFonte}">Curso Angular</h1>
 
-<input type="text" [(ngModel)]="item">
+<input type="text" [(ngModel)]="item" title="input">
 <p>{{ item }}</p>
+
+
+<ng-template ngIf="isEnable">
+  <button>ADICIONAR AO CARRINHO</button>
+</ng-template>
