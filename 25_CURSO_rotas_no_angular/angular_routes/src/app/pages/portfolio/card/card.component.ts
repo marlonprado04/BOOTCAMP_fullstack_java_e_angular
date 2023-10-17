@@ -18,6 +18,11 @@ export class CardComponent implements OnInit {
       res => console.log(res)
     )
 
+    // Recupera id do primeiro filho (caso exista): http://localhost:4200/portfolio/1/child/2
+    this.activeRoute.firstChild?.params.subscribe(
+      res => console.log(res)
+    )
+
     // Recupera QueryParams: http://localhost:4200/portfolio/1?name=marlon&idade=23
     this.activeRoute.queryParams.subscribe(
       res => console.log(res)
