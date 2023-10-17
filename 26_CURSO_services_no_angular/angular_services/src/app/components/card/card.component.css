@@ -1,0 +1,9 @@
+.card__container{
+  border: 1px black solid;
+
+  width: 200px;
+  height: 350px;
+
+  display: flex;
+  flex-direction: column;
+}
