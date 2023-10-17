@@ -12,6 +12,10 @@ const routes: Routes = [
   {
     path:"portfolio",
     component:CardComponent,
+  },
+  {
+    path:"**",
+    redirectTo:''
   }
 ];
 
