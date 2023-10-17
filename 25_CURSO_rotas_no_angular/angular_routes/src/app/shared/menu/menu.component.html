@@ -1,6 +1,15 @@
 <div>
   <ul>
-    <li><a [routerLink]="['/']">Index</a></li>
-    <li><a [routerLink]="['/portfolio']">Portfolio</a></li>
+    <li>
+      <a
+      [routerLink]="['/']"
+      [routerLinkActive]="['activated']"
+      [routerLinkActiveOptions]="{exact:true}">Index</a>
+    </li>
+    <li>
+      <a
+      [routerLink]="['/portfolio']"
+      [routerLinkActive]="['activated']"
+      [routerLinkActiveOptions]="{exact:true}">Portfolio</a></li>
   </ul>
 </div>
