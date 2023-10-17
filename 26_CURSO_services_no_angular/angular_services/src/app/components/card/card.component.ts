@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
+  // Criando propriedades do pokemon
+  name: string = "CHARIZARD"
+  attributesTypes: string[] = ['Fire', 'Wing']
+
   constructor() { }
 
   ngOnInit(): void {

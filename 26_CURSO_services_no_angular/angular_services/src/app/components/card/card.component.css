@@ -41,7 +41,8 @@
 
 
 .card__stats__type{
-  color: white;
+  color: rgb(34, 32, 32);
+  font-weight: bold;
 
   background-color: coral;
   border-radius: 5px;
