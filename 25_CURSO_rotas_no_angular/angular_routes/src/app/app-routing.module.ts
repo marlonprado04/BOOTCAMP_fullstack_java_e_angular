@@ -10,12 +10,17 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path:"portfolio/:id",
-    component:CardComponent,
+    path: "portfolio",
+    component: CardComponent,
+    children: [
+      {
+        path: ":id",
+        component: CardComponent
+      }]
   },
   {
-    path:"**",
-    redirectTo:''
+    path: "**",
+    redirectTo: ''
   }
 ];
 
