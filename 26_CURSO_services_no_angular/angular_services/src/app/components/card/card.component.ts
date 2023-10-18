@@ -9,7 +9,7 @@ import { PokemonService } from 'src/app/services/pokemon.service';
 })
 export class CardComponent implements OnInit {
   // Criando variável pokemon do tipo PokemonData (com toda estrutura de um pokemon)
-  pokemon: PokemonData | any;
+  pokemon: PokemonData;
 
   // Criando propriedades do pokemon
   name: string = "CHARIZARD"
@@ -17,7 +17,17 @@ export class CardComponent implements OnInit {
 
   constructor(
     private service: PokemonService
-  ) { }
+  ) {
+    // Inicializando pokemon com valores vazios para não dar erro;
+    this.pokemon = {
+      id: 0,
+      name: "",
+      sprites: {
+        front_default: ""
+      },
+      types: []
+    }
+  }
 
   ngOnInit(): void {
     this.service.getPokemon("charizard").subscribe(
@@ -30,7 +40,7 @@ export class CardComponent implements OnInit {
             sprites: res.sprites,
             types: res.types
           }
-
+          console.log(res.types[0].type.name)
         },
         error: (err) => console.log(err)
       }
