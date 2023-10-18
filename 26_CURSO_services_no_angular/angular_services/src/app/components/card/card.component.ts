@@ -11,10 +11,6 @@ export class CardComponent implements OnInit {
   // Criando variável pokemon do tipo PokemonData (com toda estrutura de um pokemon)
   pokemon: PokemonData;
 
-  // Criando propriedades do pokemon
-  name: string = "CHARIZARD"
-  attributesTypes: string[] = ['Fire', 'Wing']
-
   constructor(
     private service: PokemonService
   ) {
@@ -30,7 +26,11 @@ export class CardComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.service.getPokemon("charizard").subscribe(
+    this.getPokemon("pikachu")
+  }
+
+  getPokemon(searchName: string) {
+    this.service.getPokemon(searchName).subscribe(
       {
         next: (res) => {
           // Passando as informações da consulta da API para a variável pokemon criada nesse componente

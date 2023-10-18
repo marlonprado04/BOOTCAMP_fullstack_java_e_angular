@@ -29,8 +29,16 @@
   margin-left: auto;
   margin-right: auto;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
+.card__body > img{
+  height: 200px;
+  width: 200px;
+}
 
 .card__stats{
   padding-top: 10px;
