@@ -1,3 +1,5 @@
+package edu.marlon.aula;
+
 public class MinhaClasse {
   public static void main(String[] args) {
     // Chamando método para juntar nomes e atribuindo à variável nome
