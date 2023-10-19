@@ -17,8 +17,6 @@ public class TiposEVariaveis {
     final byte NUMERO_ESTADOS_BRASIL = 27;
     System.out.println("O número de estados do Brasil é: " + NUMERO_ESTADOS_BRASIL);
 
-    // classe Operadores.java
-    String nomeCompleto = "LINGUAGEM" + "JAVA";
 
     // qual o resultado das expressoes abaixo?
     String concatenacao = "?";
