@@ -25,27 +25,27 @@ public class Operadores {
     numero = numero * -1;
     System.out.println(numero);
 
-    //-------------------------------------
+    // -------------------------------------
 
     // Incremento
     System.out.println(numero); // 5
-    numero++; //6
-    System.out.println(numero); //6
+    numero++; // 6
+    System.out.println(numero); // 6
 
     // Decremento
-    System.out.println(numero); //6
-    numero--; //5
-    System.out.println(numero);//5
+    System.out.println(numero); // 6
+    numero--; // 5
+    System.out.println(numero);// 5
 
     // Inversão / negação de boleano
     boolean boleana = true;
     System.out.println(boleana); // true
     System.out.println(!boleana); // false
 
-    //----------------------
-    
+    // ----------------------
+
     // Exemplo de operador ternário
-    
+
     // Variáveis
     int a, b;
     a = 5;
@@ -53,17 +53,57 @@ public class Operadores {
     String resultado = "";
 
     // Se o a for igual ao b
-    if(a==b){
+    if (a == b) {
       resultado = "verdadeiro";
-    }else{
+    } else {
       resultado = "falso";
     }
     // Resultado
     System.out.println(resultado);
 
-    // Ao invés disso, podemos 
-    resultado = a==b ? "verdadeiro" : "falso";
+    // Ao invés disso, podemos
+    resultado = a == b ? "verdadeiro" : "falso";
     System.out.println(resultado);
+
+    // ---------------------------
+
+    // Operadores de comparação
+
+    int numero1 = 1;
+    int numero2 = 2;
+
+    // Igual
+    boolean simNao = numero1 == numero2;
+
+    System.out.println("Os números são iguais? " + simNao); // false
+
+    // Maior ou igual
+    simNao = numero1 >= numero2;
+
+    System.out.println("Os números são iguais? " + simNao); // false
+
+    // Menor ou igual
+    simNao = numero1 <= numero2;
+
+    System.out.println("Os números são iguais? " + simNao); // true
+
+    // Diferente
+    simNao = numero1 != numero2;
+
+    System.out.println("Os números são iguais? " + simNao); // true
+
+    // Comparação de string
+
+    String nome1 = "Marlon";
+    String nome2 = "Marlon";
+
+    System.out.println(nome1 == nome2);
+
+    // Comparação de objeto
+    
+    String nome3 = new String("Marlon");
+    System.out.println(nome1 == nome3); // false
+    System.out.println(nome1.equals(nome3)); // true
 
   }
 
