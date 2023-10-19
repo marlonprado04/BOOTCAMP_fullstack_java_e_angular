@@ -1,20 +1,44 @@
 public class TiposEVariaveis {
   public static void main(String[] args) {
 
-    byte idade = 123;
-    short ano = 2021;
-    int cep = 21070333; // se começar com zero, talvez tenha que ser outro tipo
-    long cpf = 98765432109L; // se começar com zero, talvez tenha que ser outro tipo
-    float pi = 3.14F;
-    double salario = 1275.33;
+    // String
+    String meuNome = "Marlon";
+    System.out.println("Meu nome é: " + meuNome);
 
-    System.out.println(pi);
+    // Int
+    int minhaIdade = 23;
+    System.out.println("Minha idade é: " + minhaIdade);
 
-    // TiposEVariaveis.java
+    // Double
+    double meuPeso = 75.5;
+    System.out.println("Meu peso é: " + meuPeso);
 
-    short numeroCurto = 1;
-    int numeroNormal = numeroCurto;
-    
-    short numeroCurto2 = (short) numeroNormal;
+    // Constantes
+    final byte NUMERO_ESTADOS_BRASIL = 27;
+    System.out.println("O número de estados do Brasil é: " + NUMERO_ESTADOS_BRASIL);
+
+    // classe Operadores.java
+    String nomeCompleto = "LINGUAGEM" + "JAVA";
+
+    // qual o resultado das expressoes abaixo?
+    String concatenacao = "?";
+
+    concatenacao = 1 + 1 + 1 + "1";
+
+    System.out.println(concatenacao);
+
+    concatenacao = 1 + "1" + 1 + 1;
+
+    System.out.println(concatenacao);
+
+    concatenacao = 1 + "1" + 1 + "1";
+
+    System.out.println(concatenacao);
+
+    concatenacao = "1" + 1 + 1 + 1;
+
+    System.out.println(concatenacao);
+
+    concatenacao = "1" + (1 + 1 + 1);
   }
 }
