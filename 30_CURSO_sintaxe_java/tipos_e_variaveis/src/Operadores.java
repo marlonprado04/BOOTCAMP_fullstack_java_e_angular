@@ -100,10 +100,35 @@ public class Operadores {
     System.out.println(nome1 == nome2);
 
     // Comparação de objeto
-    
+
     String nome3 = new String("Marlon");
     System.out.println(nome1 == nome3); // false
     System.out.println(nome1.equals(nome3)); // true
+
+    //------------------------
+
+    // Exemplo de operadores lógicos
+
+    boolean condicao1 = true;
+    boolean condicao2 = false;
+
+    // Comparando se as duas condições são verdadeiras
+
+    // Retorna falso, pois as duas precisam ser verdadeiras
+    if(condicao1 && condicao2){
+      System.out.println(true);
+    }else{
+      System.out.println(false);
+    }
+
+    // Retorna true, pois as apenas uma precisa ser verdadeira
+    if(condicao1 || condicao2){
+      System.out.println(true);
+    }else{
+      System.out.println(false);
+    }
+
+    
 
   }
 
